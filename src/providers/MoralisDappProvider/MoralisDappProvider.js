@@ -6,7 +6,7 @@ function MoralisDappProvider({ children }) {
   const { web3, Moralis, user } = useMoralis();
   const [walletAddress, setWalletAddress] = useState();
   const [chainId, setChainId] = useState();
-  const [contractABI, setContractABI] = useState({"anonymous": false, "inputs": [{ "indexed": true, "internalType": "bytes32", "name": "categoryId", "type": "bytes32"}, {"indexed": false, "internalType": "string", "name": "category", "type": "string"}], "name": "CategoryCreated", "type": "event"});
+  const [contractABI, setContractABI] = useState({"name": "CategoryCreated", "type": "event"});
   const [contractAddress, setContractAddress] = useState("0x5B38Da6a701c568545dCfcB03FcB875f56beddC4");
   const [selectedCategory, setSelectedCategory] = useState({"categoryId":"0x91","category":"default"});
   
