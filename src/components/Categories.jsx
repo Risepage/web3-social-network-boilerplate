@@ -27,4 +27,4 @@ const Categories = ({categories}) => {
     )
 }
 
-export default Categories
+export default Categories;

@@ -52,4 +52,4 @@ const Feed = () => {
     return result;
 }
 
-export default Feed
+export default Feed;

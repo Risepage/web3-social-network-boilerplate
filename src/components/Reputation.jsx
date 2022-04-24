@@ -41,4 +41,4 @@ const Reputation = () => {
     )
 }
 
-export default Reputation
+export default Reputation;
